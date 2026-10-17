@@ -1,0 +1,15 @@
+import type { FaqItem } from "../types/offer";
+
+export const faqs: FaqItem[] = [
+{ id: "res-1", topic: "Reservations", question: "How do I know my booking went through?", answer: "Right after checkout you'll see a confirmation page with a booking reference starting with AUR-. The booking also appears under My Bookings. In this demo, bookings are saved only in your browser." },
+{ id: "res-2", topic: "Reservations", question: "Can I book more than one room at once?", answer: "Yes. Use the guest selector to choose up to 8 rooms. Each room needs at least one adult, and we'll check that the room type you pick fits everyone." },
+{ id: "res-3", topic: "Reservations", question: "Can I change my dates after booking?", answer: "Date changes aren't supported in this demo. You can cancel an eligible booking from My Bookings and make a new one with the dates you want." },
+{ id: "can-1", topic: "Cancellations", question: "What does free cancellation mean?", answer: "Rates marked free cancellation can be cancelled without charge until the deadline shown on the room, usually 24–72 hours before check-in. After the deadline, the first night is charged." },
+{ id: "can-2", topic: "Cancellations", question: "How do I cancel a booking?", answer: "Go to My Bookings, find the reservation under Upcoming, and choose Cancel booking. You'll see the cancellation terms before you confirm. In this demo, cancelling only updates your saved demo booking." },
+{ id: "can-3", topic: "Cancellations", question: "Are non-refundable rates ever refunded?", answer: "Non-refundable rates are cheaper because they can't be refunded once booked. If plans might change, choose a rate with free cancellation." },
+{ id: "pay-1", topic: "Payments", question: "Is my card charged in this demo?", answer: "No. The checkout is a demonstration only. Use the test card 4242 4242 4242 4242 — no real payment is processed and card details are never stored." },
+{ id: "pay-2", topic: "Payments", question: "What taxes and fees are included?", answer: "Prices per night exclude a 12% tax and a 4% service fee. Both are shown separately in the price breakdown before you confirm, so the total you see is the total you'd pay." },
+{ id: "pay-3", topic: "Payments", question: "How do promo codes work?", answer: "Enter a code on the payment step and select Apply. One code can be used per booking, and some codes require a minimum room subtotal. Try WELCOME10 for 10% off." },
+{ id: "chk-1", topic: "Check-in", question: "What time can I check in?", answer: "Each hotel lists its check-in and check-out times under Policies on the hotel page. Most hotels open rooms from 3:00 PM and ask guests to leave by 11:00 AM." },
+{ id: "chk-2", topic: "Check-in", question: "What do I need to bring at check-in?", answer: "Bring a government-issued photo ID and the card used to book. Some hotels ask for a refundable deposit for incidentals." },
+{ id: "chk-3", topic: "Check-in", question: "Can I request early check-in?", answer: "Add it to Special requests when you book. Hotels try to accommodate requests but can't guarantee them." }];
