@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { buttonClasses } from "../../components/ui/Button";
 import { images } from "../../data/images";
-
+// this is a comment
 const values = [
 { title: "Fewer, better hotels", body: "We list a dozen properties, not ten thousand. Every one has been visited by our team, and we drop hotels that slip." },
 { title: "Honest pricing", body: "Nightly rates, taxes, and fees are shown separately and added up before you confirm. The total never changes at checkout." },
